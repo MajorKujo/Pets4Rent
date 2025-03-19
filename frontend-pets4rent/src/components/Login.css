@@ -1,0 +1,23 @@
+.login{
+    margin: 1%;
+    padding:2%;
+    place-items: center;
+}
+#logtextfield{
+    background-color: #573a21;
+}
+.logbuttons{
+    background-color: #F28C28;
+}
+
+.logheaders{
+   color: #2D2D2D;
+}
+
+.logtext{
+    color: #2D2D2D;
+}
+
+.loglinings{
+    outline-color: #A3D9A5;
+}

@@ -1,0 +1,107 @@
+.default{
+    margin:1%;
+    padding:2%;
+}
+
+/* General Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #FAF3E0;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #A7C4BC; /* Soft Greenish Blue */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #F4A261;
+}
+
+/* Headings */
+.heading-primary {
+    font-size: 2.5rem;
+    color: #3D405B;
+    margin-bottom: 1rem;
+}
+
+.heading-secondary {
+    font-size: 1.75rem;
+    color: #3D405B;
+    margin-bottom: 0.75rem;
+}
+
+/* Buttons */
+.button {
+    background-color: #81B29A;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #F4A261;
+}
+
+/* Highlights */
+.highlight {
+    background-color: #F2CC8F;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+
+/* Accents */
+.accent {
+    color: #81B29A;
+}
+
+/* Subtexts */
+.subtext {
+    color: #6D6875;
+    font-size: 0.9rem;
+}
+
+/* Cards for Pet Listings */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* General Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
